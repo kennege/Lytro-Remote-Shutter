@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UAM.InformatiX.ReflectionExtensions" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAACAAAoAAAAAAAAAAA=</HashCode>
+      <FileName>UAM\UAM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAM.InformatiX.StringExtensions" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>UAM\UAM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAM.InformatiX.BinaryExtensions" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>UAM\UAM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAM.InformatiX.ArrayExtensions" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAA=</HashCode>
+      <FileName>UAM\UAM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAM.InformatiX.EnumEx" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UAM\UAM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAM.InformatiX.Text.Json.JsonExtensions" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAEAAkAAACAIQAAIkAABwwABIAAgAYAAAA=</HashCode>
+      <FileName>UAM\JsonExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAM.InformatiX.Text.Json.JsonIgnoreDefaultAttribute" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UAM\JsonIgnoreDefaultAttibute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAM.InformatiX.Text.Json.JsonMemberCasingAttribute" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAICAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UAM\JsonMemberCasingAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAM.InformatiX.Text.Json.JsonMemberNameAttribute" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACBAAAAAAAAA=</HashCode>
+      <FileName>UAM\JsonMemberNameAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAM.InformatiX.Text.Json.JsonMemberTypeInAttribute" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UAM\JsonMemberTypeInAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAM.InformatiX.Text.Json.JsonMemberTypeInKeyAttribute" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UAM\JsonMemberTypeInKeyAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAM.InformatiX.Text.Json.JsonTypeDictionary" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCJAAAAAAAAMABQQCAAABAQAAAAAAAAAAAAgEABQIAA=</HashCode>
+      <FileName>UAM\JsonTypeDictionary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UAM.InformatiX.Text.Json.JsonTypeMappingAttribute" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>UAM\JsonTypeMappingAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAM.InformatiX.Text.Json.JsonTypeResolver" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAIAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>UAM\JsonTypeResolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAM.InformatiX.Text.Json.JsonParser" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UAM\UAM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAM.InformatiX.Collections.NonGenericCollectionWrapper&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAFAAAAAAEAQAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>UAM\NonGenericCollectionWrapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UAM.InformatiX.Collections.NonGenericDictionaryWrapper&lt;TKey, TValue&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAABAAACAABAQCAAAFAQgAAAAAAAEAAAgAABQIAA=</HashCode>
+      <FileName>UAM\NonGenericDictionaryWrapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UAM.InformatiX.Collections.EqualityComparer" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UAM\UAM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="UAM.InformatiX.Text.Json.JsonMemberCasing" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAACACAABAAAAA=</HashCode>
+      <FileName>UAM\JsonMemberCasingAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
