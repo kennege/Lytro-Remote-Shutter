@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{67BAAEC5-1B33-4A87-915D-FA23A42E1A52}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LytroGerard</RootNamespace>
+    <AssemblyName>LytroGerard</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>74B4E0E672AAF23BA7A0E7A219A1D2C0CFFB9EE0</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>LytroGerard_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Include="AccessorExtensions.cs" />
+    <Compile Include="CameraMode.cs" />
+    <Compile Include="ComponentCollection.cs" />
+    <Compile Include="ComponentReader.cs" />
+    <Compile Include="DebugMetadata.cs" />
+    <Compile Include="DemosaicedImage.cs" />
+    <Compile Include="DepthMapAcceleration.cs" />
+    <Compile Include="DepthPackageAccessor.cs" />
+    <Compile Include="DimensionsMode.cs" />
+    <Compile Include="FieldImage.cs" />
+    <Compile Include="FilesMetadata.cs" />
+    <Compile Include="FilesPackageAccessor.cs" />
+    <Compile Include="FlatFieldSet.cs" />
+    <Compile Include="FrameMetadata.cs" />
+    <Compile Include="HardwareInfo.cs" />
+    <Compile Include="InterpolatedDepth.cs" />
+    <Compile Include="InterpolatedImage.cs" />
+    <Compile Include="Json.cs" />
+    <Compile Include="LightFieldComponent.cs" />
+    <Compile Include="LightFieldPackage.cs" />
+    <Compile Include="LoadPictureFormat.cs" />
+    <Compile Include="LytroCallbackSink.cs" />
+    <Compile Include="LytroCallbackSink.Events.cs" />
+    <Compile Include="LytroCommand.cs" />
+    <Compile Include="LytroNetClient.cs" />
+    <Compile Include="LytroNetException.cs" />
+    <Compile Include="LytroNetProgressChanged.cs" />
+    <Compile Include="LytroRawMessage.cs" />
+    <Compile Include="LytroRequest.cs" />
+    <Compile Include="LytroResponse.cs" />
+    <Compile Include="MicroLens.cs" />
+    <Compile Include="MicroLensCollection.cs" />
+    <Compile Include="Not Portable\FieldImageNP.cs" />
+    <Compile Include="Not Portable\LightFieldPackageNP.cs" />
+    <Compile Include="Not Portable\LytroNetClientNP.cs" />
+    <Compile Include="PackageAccessor.cs" />
+    <Compile Include="ParallaxStackAcceleration.cs" />
+    <Compile Include="PictureList.cs" />
+    <Compile Include="PictureListEntry.cs" />
+    <Compile Include="PictureListEntryRotation.cs" />
+    <Compile Include="PictureListRecordDefinition.cs" />
+    <Compile Include="PictureMetadata.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RawImage.cs" />
+    <Compile Include="RawPackageAccessor.cs" />
+    <Compile Include="RefocusStackAcceleration.cs" />
+    <Compile Include="Representation.cs" />
+    <Compile Include="StackPackageAccessor.cs" />
+    <Compile Include="UAM\ColorRgb128Float.cs" />
+    <Compile Include="UAM\ColorRgba128Float.cs" />
+    <Compile Include="UAM\JsonExtensions.cs" />
+    <Compile Include="UAM\JsonIgnoreDefaultAttibute.cs" />
+    <Compile Include="UAM\JsonMemberCasingAttribute.cs" />
+    <Compile Include="UAM\JsonMemberNameAttribute.cs" />
+    <Compile Include="UAM\JsonMemberTypeInAttribute.cs" />
+    <Compile Include="UAM\JsonMemberTypeInKeyAttribute.cs" />
+    <Compile Include="UAM\JsonTypeDictionary.cs" />
+    <Compile Include="UAM\JsonTypeMappingAttribute.cs" />
+    <Compile Include="UAM\JsonTypeResolver.cs" />
+    <Compile Include="UAM\NonGenericCollectionWrapper.cs" />
+    <Compile Include="UAM\NonGenericDictionaryWrapper.cs" />
+    <Compile Include="UAM\UAM.cs" />
+    <Compile Include="UVImage.cs" />
+    <Compile Include="XYImage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
